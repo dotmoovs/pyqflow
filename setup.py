@@ -16,11 +16,6 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/dotmoovs/remote-workflows-api",
     packages=setuptools.find_packages(),
-    classifiers=[
-        "Programming Language :: Python :: 3.7.12",
-        "",
-        "Operating System :: OS Independent",
-    ],
     install_requires=installation_requirements,
     python_requires=">=3.7.10",
 )
